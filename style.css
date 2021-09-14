@@ -1,0 +1,148 @@
+body{
+	background-color:#373232;
+	color:#DC143c;
+}
+.browsebody{
+	text-align:center;
+}
+p{
+	font-family:Ignotum;
+	font-size: 24px;
+	
+}
+table{
+	border:3px solid grey;
+	width:100%;
+	border-collapse:collapse;
+}
+table, td, th {
+  border: 3px solid grey;
+}
+th{
+	height:40px;
+	width:23%;
+	font-family: adventure_strike;
+	font-size:20px;
+	color:white;
+	letter-spacing: 1.3px
+}
+ h1{
+	font-family:adventure_strike;
+	text-align:center;
+	font-size:50px;
+	letter-spacing: 2px
+}
+h2{ font-family: ignotum;
+	font-size:40px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-shadow: 1px 1px black; 
+}
+a {
+	color:white;
+	text-decoration: none;
+}
+
+ .feet{ text-align: center; }
+ .center{
+display:block;
+margin-left:auto;
+margin-right: auto;
+width:15%;
+margin-bottom:20px;
+height:150px;  
+ }
+ 
+.gameimage{
+	float:left;
+	height:200px;
+	width:200px;
+	margin:10px;
+}
+.gameshow{
+	background-color:#f1ebe4;
+	border:15px solid black;
+	border-radius:10px;
+	padding:5%;
+	height:auto;
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 5%;
+	margin-bottom: 10%
+}
+.gamewords{
+	color:black;
+	font-family:ignotum;
+	border:2px inset black;
+	border-radius:10px;
+	margin-left: 23%;
+	text-align:left;
+	height:300px;
+	width:65%;
+	font-size:24px;
+	
+}
+.gametitle{
+	color:black;
+	font-family:adventure_strike;
+	text-decoration:underline;
+	font-size:52px;
+	text-align: left;
+}
+.settings{
+	width:8%;
+}
+figure{
+	display:inline-block;
+	border:2px solid grey;
+	float:left;
+	background-color:lightgrey;
+	margin-top:10%;
+}
+figcaption{
+	color:black;
+	font-size:10px;
+
+}
+.singlegame{
+	border:2px double black;
+	border-radius:10px;
+	margin:2%;
+}
+@font-face { font-family: adventure_strike; src: url("Adventure Strike FREE.ttf"); }
+@font-face{ font-family:Ignotum; src: url("Ignotum.ttf");
+}
+.browseimage{
+	width:320px;
+	height:220px;
+	border:solid;
+	border-width:6px;
+}
+.browsesections{
+	font-family:adventure_strike;
+	text-decoration:underline;
+	text-shadow: 1px 1px grey;
+}
+.browsesectionarea{
+	background-color:#f1ebe4;
+	border:15px solid black;
+	border-radius:10px;
+	padding:5%;
+	height:auto;
+	width:50%;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:5%;
+
+}
+.browsegametitles{
+	font-family:adventure_strike;
+	text-decoration:underline;
+	font-size:36px;
+	text-align: left;
+}
+.egg{
+	color:#373232;	
+}
